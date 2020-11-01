@@ -2,7 +2,7 @@ git clone https://github.com/rkudache31/mcma.git
 cd mcma
 sudo apt-get install -y unzip
 unzip mcmacode.zip
-get -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo  apt-key add -
+wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo  apt-key add -
 sudo apt-get install -y gnupg
 wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo  apt-key add -
 echo "deb [ arch=amd64,arm64,s390x ] http://repo.mongodb.com/apt/ubuntu bionic/mongodb-enterprise/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-enterprise.list
