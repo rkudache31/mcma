@@ -18,6 +18,6 @@ pip3 install pandas
 pip3 install flask_mail
 pip3 install pycountry
 sudo service  mongod start
-sed -i 's/18.191.158.237/104.211.118.154/g' /home/mcmaadmin/mcma/mCMA-codebase/mcma-UI/src/environments/environment.prod.ts
-sed -i 's/18.219.223.111/104.211.118.154/g' /home/mcmaadmin/mcma/mCMA-codebase/mcma-UI/src/environments/environment.ts
-sed -i 's/ng serve/ng serve --host 0.0.0.0/g' /home/mcmaadmin/mcma/mCMA-codebase/mcma-UI/package.json
+#sed -i 's/18.191.158.237/104.211.118.154/g' /home/mcmaadmin/mcma/mCMA-codebase/mcma-UI/src/environments/environment.prod.ts
+#sed -i 's/18.219.223.111/104.211.118.154/g' /home/mcmaadmin/mcma/mCMA-codebase/mcma-UI/src/environments/environment.ts
+#sed -i 's/ng serve/ng serve --host 0.0.0.0/g' /home/mcmaadmin/mcma/mCMA-codebase/mcma-UI/package.json
